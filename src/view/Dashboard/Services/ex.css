@@ -1,0 +1,9 @@
+body {
+  background: rgb(153, 150, 7);
+  background: rgba(25, 183, 41, 0.1);
+  background: rgba(255, 130, 130, 0.1);
+  justify-content:flex-end;
+  text-align: justify;
+  border: 1px solid red;
+  color: green;
+}

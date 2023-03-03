@@ -1,0 +1,51 @@
+.container {
+  padding: 0 10px;
+}
+.paginationWrapper {
+  border: 1px solid #d2d2d2;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 31px;
+  /* gap: 20px; */
+}
+.paginationWrapper button:not(.numbers a) {
+  text-decoration: none;
+  color: black;
+  margin: 0 10px;
+  font-size: 11px;
+  font-weight: 600;
+  font-family: "Karla", sans-serif;
+  border: none;
+  background: none;
+}
+.numbers {
+  margin-bottom: 6px;
+}
+.numbers a {
+  color: black;
+  text-decoration: none;
+  border: 0.5px solid #d2d2d2;
+  padding: 8px 12px;
+  font-family: "Karla", sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+}
+.container ul li {
+  border: 1px solid black;
+  padding: 6px 10px;
+  text-decoration: none;
+  color: black;
+}
+.container ul li .active {
+  background: red;
+}
+.container ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+}
+.container ul li a:active {
+  background: red;
+}
